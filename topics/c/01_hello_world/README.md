@@ -64,5 +64,4 @@ Naast `#include` bestaan er nog andere pre-processing directives zoals:
 * #error
 * \_\_FILE\_\_
 
-Deze werk ik later uit.
 
