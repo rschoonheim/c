@@ -1,0 +1,5 @@
+# Integrated Development Environment (IDE) Files
+.idea/
+
+# CMake related
+cmake-build-debug/
