@@ -50,7 +50,6 @@ char normalize_input(char *input) {
     }
 
     return *input;
-
 }
 
 int main() {
