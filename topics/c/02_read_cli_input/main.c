@@ -54,11 +54,15 @@ char normalize_input(char *input) {
 
 int main() {
     int application_state = 0;
+
+
     while (application_state != 1) {
         printf("Enter a command: ");
         char command[100];
-        scanf("%[^\n]", command);
+        int result = scanf("%2c", command);
         normalize_input(command);
+
+        printf("Result: %d\n", result);
 
         printf("You entered: %s\n", command);
 
