@@ -67,7 +67,6 @@ int main() {
             application_state = 1;
         }
 
-        // Clear the input buffer
         while (getchar() != '\n');
     }
 
