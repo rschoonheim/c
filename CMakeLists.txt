@@ -3,4 +3,7 @@ project(foundation C)
 
 set(CMAKE_C_STANDARD 23)
 
-add_executable(foundation main.c)
+add_executable(
+        c_01_hello_world
+        topics/c/01_hello_world/main.c
+)
